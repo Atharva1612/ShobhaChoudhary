@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgba(196, 196, 218, 0.671);
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(196, 196, 218);
+    top: 0%;
+    position: fixed;
+    width: 100%;
+    opacity: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    top: 0%;
+    /* position: fixed; */
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    font-size: 1.25rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+/* nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+} */
+nav ul li:hover {
+    text-decoration: none;
+    color: rgb(153, 153, 226);
+    font-size: 1.20rem;
+}
+
+.left {
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
+
+}
+.left  a{
+    text-decoration: none;
+    color: black;
+}
+
+#element{
+    font-family: 'Dancing Script', cursive;
+
+}
+nav img{
+    width: 80px;
+    /* padding-top: 5px; */
+
+}
+
+.firsts {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0px;
+    align-items: center;
+}
+
+.firsts>div {
+    width: 40%;
+
+}
+
+.lefts {
+    font-size: 2.5rem;
+    /* margin: 70px 0px; */
+}
+
+.rights img {
+    width: 70%;
+
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+    font-family: 'Dancing Script', cursive;
+}
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(0, 0, 0);
+}
+
+.seconds {
+    max-width: 90%;
+    margin: auto;
+    height: 80vh;
+}
+.seconds h1{
+    font-size: 1.9rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 2px;
+    margin: 60px 0px;
+
+}
+.seconds .box {
+    background-color: white;
+    width: 73vw;
+    height: 2px;
+    margin: 60px;
+    display: flex;
+    padding-left: 161px;
+}
+
+.seconds .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 120px;
+}
+
+.image-top{
+    width: 40px;
+    position: relative;
+    top: -47px;
+    right: 21px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 45px;
+    left: -60px;
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.vertical-title:hover{
+    color: wheat;
+}
+.vertical-desc{
+    position: relative;
+    top: 57px;
+    font-size: 9px;
+    width: 150px;
+    left: -65px;
+}
+#projects{
+    max-width: 90%;
+    margin: auto;
+}
+#projects iframe{
+    width: 1400px;
+    height: 1080px;
+    padding: 0px 200px;
+    border: 0px;
+}
+.col-md-3 a{
+    color: black;
+    text-decoration: none;
+}
+.video video{
+    width: 500px; 
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+.card-head{
+   display: flex;
+}
+.card{
+    width: 18rem;
+    /* height: 25rem; */
+    background-color: rgba(196, 196, 218, 0.678);
+    margin: 25px 25px; 
+}
+.card a{
+    background-color: black;
+    color: white;
+    
+}
+.footer{
+    width: 100%;
+}
+.main-first{
+    /* display: flex; */
+    flex-direction: row-reverse;
+}
+.main-first p {
+    width: 55%;
+    margin-left: 277px;
+    font-size: 1.5rem;
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    border: 5px white solid;
+    height: 900px;
+    width: 1366px;
+box-shadow: 10px 10px 20px rgb(13, 13, 48);
+padding-left: 10px;
+font-family: 'Nova Square', sans-serif;
+}
+.main-first img{
+margin-left: 420px;
+margin-top: 85px;
+border: 5px white solid;
+box-shadow: 10px 10px 20px rgb(13, 13, 48);
+}
+@media only screen and (max-width: 1366px){
+    .lefts {
+        font-size: 2rem;
+    }
+
+    .seconds .box {
+        background-color: white;
+        width: 85vw;
+        height: 2px;
+        margin: 60px;
+        display: flex;
+        padding: 0px 0px;
+    }
+}
+    .vertical-desc {
+    position: relative;
+    top: 57px;
+    font-size: 11px;
+    width: 180px;
+    left: -65px;
+    }
+    #projects{
+        max-width: 1200px;
+    }
+    #projects iframe{
+        width: 1180px;
+        height: 768px;
+        padding: 0px 0px;
+        border: 0px;
+
+.firsts>div {
+    width: 30%;
+
+}
+}
+
+@media only screen and (max-width: 1120px){
+    .nav{
+        flex-direction: column;
+        height: 640px;
+        position: relative;
+        transition: all 0.7s ease-out;
+        display: none;
+    }
+    ul{
+        flex-direction: column;
+    }
+    /* .right{
+        display: none;
+    }
+    .left{
+        display: none;
+    } */
+    .firsts{
+        flex-direction: column-reverse;
+    }
+    .rights{
+        width: 226px;
+    }
+    .rights img{
+        width: 200px;
+        padding-bottom: 100px;
+    }
+    .seconds .vertical{
+        height: 1px;
+        width: 100px;
+        background-color: white;
+        margin: 0px 10px;
+    }
+.seconds .box {
+    background-color: white;
+    width: 2px;
+    height: 400px;
+    margin: 60px;
+    padding: 60px 0px;
+}
+#projects iframe {
+    width: 1120px;
+    height: 768px;
+    padding: 0px 0px;
+    border: 0px;
+}
+.lefts {
+    font-size: 1.5rem;
+}
+.firsts>div {
+    width: 60%;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box img{
+    left: -50px;
+    top: -20px;
+}
+.vertical-title {
+    top: -70px;
+    left: 114px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#projects iframe{
+        width:90%;
+        height: 850px;
+        margin: 0px 15px;
+        border: 0px;
+}
+.video{
+    padding: 0px 80px;
+}
+.video video{
+    width: 200px; 
+}
+.burger{
+    display: block;
+}
+.nav-active{
+    flex-direction: column;
+    height: 640px;
+    position: relative;
+    display: flex;
+}
+.card-head{
+    display: block;
+} 
+}
