@@ -236,12 +236,14 @@ main hr {
   }
 .card-head{
    display: flex;
+   justify-content: center;
 }
 .card{
     width: 18rem;
     /* height: 25rem; */
     background-color: rgba(196, 196, 218, 0.678);
     margin: 25px 25px; 
+    margin-left: 100px;
 }
 .card a{
     background-color: black;
@@ -273,6 +275,7 @@ margin-left: 420px;
 margin-top: 85px;
 border: 5px white solid;
 box-shadow: 10px 10px 20px rgb(13, 13, 48);
+
 }
 @media only screen and (max-width: 1366px){
     .lefts {
@@ -402,4 +405,25 @@ box-shadow: 10px 10px 20px rgb(13, 13, 48);
 .card-head{
     display: block;
 } 
+.main-first img{
+    margin-left: 40px;
+    margin-top: 85px;
+    border: 5px white solid;
+    box-shadow: 10px 10px 20px rgb(13, 13, 48);
+    width: 70%;
+    }
+    .main-first p {
+        width: 55%;
+        margin-left: 20px;
+        font-size: 1rem;
+        /* font-style: italic; */
+        /* font-weight: bold; */
+        border: 5px white solid;
+        height: auto;
+        width: 322px;
+        box-shadow: 10px 10px 20px rgba(13, 13, 48, 0.63), inset 10px 10px 40px rgba(13, 13, 48, 0.432);
+        padding-left: 10px;
+        font-family: 'Nova Square', sans-serif;
+        display: block;
+    }
 }
