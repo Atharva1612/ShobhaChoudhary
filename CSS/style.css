@@ -21,7 +21,7 @@ nav {
     top: 0%;
     position: fixed;
     width: 100%;
-    opacity: 1;
+    opacity: 100;
 }
 
 nav ul {
@@ -63,6 +63,9 @@ nav ul li:hover {
     text-decoration: none;
     color: black;
 }
+.left1{
+    display: none;
+}
 
 #element{
     font-family: 'Dancing Script', cursive;
@@ -92,7 +95,7 @@ nav img{
 }
 
 .rights img {
-    width: 70%;
+    width: 80%;
 
 }
 
@@ -284,7 +287,7 @@ font-family: 'Nova Square', sans-serif;
     /* font-style: italic; */
     /* font-weight: bold; */
     border: 5px white solid;
-    height: 610px;
+    /* height: 610px; */
     width: 1366px;
 box-shadow: 10px 10px 20px rgba(13, 13, 48, 0.63), inset 10px 10px 20px rgba(13, 13, 48, 0.432) ;
 padding-left: 10px;
@@ -308,6 +311,10 @@ margin-top: 85px;
 border: 5px white solid;
 box-shadow: 10px 10px 20px rgb(13, 13, 48);
 cursor: none;
+}
+.gallery{
+    display: inline-flex;
+
 }
 @media only screen and (max-width: 1366px){
     .lefts {
@@ -364,13 +371,14 @@ cursor: none;
     } */
     .firsts{
         flex-direction: column-reverse;
+        margin: 50px 0px;
     }
     .rights{
         width: 226px;
     }
-    .rights img{
-        width: 200px;
-        padding-bottom: 100px;
+    .rights img {
+        width: 326px;
+        padding-bottom: 10px;
     }
     .seconds .vertical{
         height: 1px;
@@ -395,7 +403,7 @@ cursor: none;
     font-size: 1.5rem;
 }
 .firsts>div {
-    width: 60%;
+    width: 80%;
 
 }
 .box{
@@ -438,13 +446,13 @@ cursor: none;
     display: block;
 } 
 .main-first img{
-    margin-left: 40px;
-    margin-top: 85px;
+    margin-left: 25px;
+    margin-top: 55px;
     border: 5px white solid;
     box-shadow: 10px 10px 20px rgb(13, 13, 48);
-    width: 70%;
+    width: 80%;
     }
-    .main-first p {
+.main-first p {
         width: 55%;
         margin-left: 20px;
         font-size: 1rem;
@@ -463,6 +471,46 @@ cursor: none;
         /* height: 25rem; */
         background-color: rgba(196, 196, 218, 0.678);
         margin: 25px 25px; 
-        margin-left: 50px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 22.5px;
+    }
+    .gallery{
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery img{
+        width: 250px;
+        /* margin-left: 50px; */
+    }
+    .card-body{width: 0rem;}
+    .main-first h1{
+        margin-left: 18px;
+    }
+    .concerts {
+        width: 55%;
+        margin-left: 22.5px;
+        padding-top: 50px;
+        font-size: 1.5rem;
+        /* font-style: italic; */
+        /* font-weight: bold; */
+        border: 5px white solid;
+        /* height: 610px; */
+        width: 330px;
+        box-shadow: 10px 10px 20px rgba(13, 13, 48, 0.63), inset 10px 10px 20px rgba(13, 13, 48, 0.432);
+        padding-left: 10px;
+        font-family: 'Nova Square', sans-serif;
+    }
+    .left1 {
+        font-size: 2.25rem;
+        font-family: 'Dancing Script', cursive;
+        display: block;
+        margin-top: 7px;
+        margin-left: 25px;
+    }
+    .left1  a{
+        text-decoration: none;
+        color: black;
     }
 }
