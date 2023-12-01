@@ -9,6 +9,7 @@ body {
     background-color: rgba(196, 196, 218, 0.671);
     color: black;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 nav {
@@ -256,6 +257,25 @@ main hr {
 .main-first{
     /* display: flex; */
     flex-direction: row-reverse;
+    
+}
+.concerts{
+    width: 55%;
+    margin-left: 277px;
+    padding-top: 50px;
+    font-size: 1.5rem;
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    border: 5px white solid;
+    /* height: 610px; */
+    width: 1366px;
+box-shadow: 10px 10px 20px rgba(13, 13, 48, 0.63), inset 10px 10px 20px rgba(13, 13, 48, 0.432) ;
+padding-left: 10px;
+font-family: 'Nova Square', sans-serif;
+}
+.concerts li {
+    /* background: url(/img/bullet.png) no-repeat 0 5px; */
+    list-style: square;
 }
 .main-first p {
     width: 55%;
@@ -264,9 +284,21 @@ main hr {
     /* font-style: italic; */
     /* font-weight: bold; */
     border: 5px white solid;
-    height: 900px;
+    height: 610px;
     width: 1366px;
-box-shadow: 10px 10px 20px rgb(13, 13, 48);
+box-shadow: 10px 10px 20px rgba(13, 13, 48, 0.63), inset 10px 10px 20px rgba(13, 13, 48, 0.432) ;
+padding-left: 10px;
+font-family: 'Nova Square', sans-serif;
+}
+.main-first h1 {
+    width: 55%;
+    margin-left: 277px;
+    /* font-size: 1.5rem; */
+    font-style: italic;
+    font-weight: bold;
+    
+
+
 padding-left: 10px;
 font-family: 'Nova Square', sans-serif;
 }
@@ -275,7 +307,7 @@ margin-left: 420px;
 margin-top: 85px;
 border: 5px white solid;
 box-shadow: 10px 10px 20px rgb(13, 13, 48);
-
+cursor: none;
 }
 @media only screen and (max-width: 1366px){
     .lefts {
@@ -425,5 +457,12 @@ box-shadow: 10px 10px 20px rgb(13, 13, 48);
         padding-left: 10px;
         font-family: 'Nova Square', sans-serif;
         display: block;
+    }
+    .card{
+        width: 18rem;
+        /* height: 25rem; */
+        background-color: rgba(196, 196, 218, 0.678);
+        margin: 25px 25px; 
+        margin-left: 50px;
     }
 }
