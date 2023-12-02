@@ -371,7 +371,7 @@ cursor: none;
     } */
     .firsts{
         flex-direction: column-reverse;
-        margin: 50px 0px;
+        margin: 0px 0px;
     }
     .rights{
         width: 226px;
@@ -503,14 +503,18 @@ cursor: none;
         font-family: 'Nova Square', sans-serif;
     }
     .left1 {
-        font-size: 2.25rem;
+        font-size: 1.75rem;
         font-family: 'Dancing Script', cursive;
         display: block;
-        margin-top: 7px;
-        margin-left: 25px;
+        margin-top: 0px;
+        margin-left: 0px;
     }
     .left1  a{
         text-decoration: none;
         color: black;
+    }
+    .left1 img{
+        width: 70px;
+        margin-left: 15px;
     }
 }
