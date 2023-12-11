@@ -1,14 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
+.border-top img{
+      width: 250px;
+    margin-left: -90px;
+    cursor: pointer;}
 html{
     scroll-behavior: smooth;
 }
 body {
     background-color: rgba(196, 196, 218, 0.671);
     color: black;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oswald', sans-serif;
     overflow-x: hidden;
 }
 
