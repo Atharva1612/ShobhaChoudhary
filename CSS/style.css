@@ -326,6 +326,9 @@ cursor: none;
     margin-top: -350px;
 }
 @media only screen and (max-width: 1366px){
+    .nav{
+        height: 100px;
+    }
     .lefts {
         font-size: 2rem;
     }
